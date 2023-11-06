@@ -33,26 +33,6 @@ body {
     font-size: 12px;
 }
 
-.textOnInput {
-    position: relative;
-}
-.textOnInput label {
-    position: absolute;
-    top: -15px;
-    left: 23px;
-    padding: 2px;
-    z-index: 1;
-}
-.textOnInput label:after {
-    content: " ";
-    background-color: #fff;
-    width: 100%;
-    height: 13px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-}
 label {
     font-size: 16px;
     font-weight: 500;
@@ -64,6 +44,28 @@ label {
     height: 100px;
 }
 
-::-webkit-input-placeholder {
-    text-align: top;
-  }
+.divider {
+    margin: 20px;
+    border-bottom: 1px solid black;
+}
+
+th {
+    text-align: left;
+    width: 250px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+td {
+    text-align: right;
+}
+
+.grandTotalContainer {
+    column-count: 2;
+}
+
+.commentLabel {
+    display: block;
+}

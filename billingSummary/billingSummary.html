@@ -12,49 +12,50 @@
 
 <body>
     <br>
-        <summary class="title">Billing Summary</summary>
-        <table>
-            <tr>
-                <td>Subtotal</td>
-                <td><span class="price">$3370</span></td>
-            </tr>
-            <tr>
-                <td>Discount</td>
-                <td><span class="price">$3370</span></td>
-            </tr>
-            <tr>
-                <td>Warranty(Platinum)</td>
-                <td><span class="price">$3370</span></td>
-            </tr>
-            <tr>
-                <td class="remove">Remove</td>
-            </tr>
-            <tr>
-                <td>Shipping</td>
-                <td><span class="price">$3370</span></td>
-            </tr>
-            <tr>
-                <td>Tax</td>
-                <td><span class="price">$3370</span></td>
-            </tr>
-        </table>
-    </br>
+    <summary class="title">Billing Summary</summary>
+    <table>
+        <tr>
+            <th>Subtotal</th>
+            <td>$3370</td>
+        </tr>
+        <tr>
+            <th>Discount</th>
+            <td>$3370</td>
+        </tr>
+        <tr>
+            <th>Warranty(Platinum)</th>
+            <td>$3370</td>
+        </tr>
+        <tr>
+            <th class="remove">Remove</th>
+        </tr>
+        <tr>
+            <th>Shipping</th>
+            <td>$3370</td>
+        </tr>
+        <tr>
+            <th>Tax</th>
+            <td>$3370</td>
+        </tr>
+    </table>
+
     </details>
-    <div class="border-top">
-        <table>
-            <td class="grand-total">Grand Total</td>
-            <td class="grand-total"><span class="price">43439.00</span></td>
-        </table>
-        <div class="col-md-4 mt-5">
-            <div class="textOnInput">
-                <label for="inputText">Order comment</label>
-                <input class="form-control" type="text" placeholder="Type here...">
-            </div>
-        </div>
+    <div class="divider"></div>
+
+    <div class="grandTotalContainer">
+        <p>Grand Total</p>
+        <p>$3,439.00</p>
     </div>
-    <label class="display-block"><input type="checkbox"> Please check to acknowledge our Privacy & Terms Policy</label>
+
+    <div class="textareaContainer">
+        <label class="commentLabel">Order comment</label>
+        <textarea placeholder="Type here..." rows="4" cols="50"></textarea>
+    </div>
+
+    <label><input type="checkbox"> Please check to acknowledge our Privacy & Terms Policy</label>
     <div class="d-grid gap-2">
         <button class="btn btn-primary" type="button">Pay $3439.00</button>
-      </div></body>
+    </div>
+</body>
 
 </html>
