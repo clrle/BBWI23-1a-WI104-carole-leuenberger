@@ -11,25 +11,50 @@
 </head>
 
 <body>
-    <details>
+    <br>
         <summary class="title">Billing Summary</summary>
-        <ul>
-            <li>Subtotal<span class="price">$3370</span></li>
-            <li>Discount<span class="price">$3370</span></li>
-            <li>Warranty(Platinum)<span class="price">$3370</span></li>
-            <li>Shipping<span class="price">$3370</span></li>
-            <li>Tax<span class="price">$3370</span></li>
-        </ul>
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td><span class="price">$3370</span></td>
+            </tr>
+            <tr>
+                <td>Discount</td>
+                <td><span class="price">$3370</span></td>
+            </tr>
+            <tr>
+                <td>Warranty(Platinum)</td>
+                <td><span class="price">$3370</span></td>
+            </tr>
+            <tr>
+                <td class="remove">Remove</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td><span class="price">$3370</span></td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td><span class="price">$3370</span></td>
+            </tr>
+        </table>
+    </br>
     </details>
     <div class="border-top">
-        <ul>
-            <li>Grand Total<span class="price">43439.00</span></li>
-        </ul>
-        <label class="display-block">Order comment</label>
-        <textarea rows="4" cols="50" placeholder="Type here..."></textarea>
+        <table>
+            <td class="grand-total">Grand Total</td>
+            <td class="grand-total"><span class="price">43439.00</span></td>
+        </table>
+        <div class="col-md-4 mt-5">
+            <div class="textOnInput">
+                <label for="inputText">Order comment</label>
+                <input class="form-control" type="text" placeholder="Type here...">
+            </div>
+        </div>
     </div>
     <label class="display-block"><input type="checkbox"> Please check to acknowledge our Privacy & Terms Policy</label>
-    <button type="button" class="btn btn-primary">Pay $3439.00</button>
-</body>
+    <div class="d-grid gap-2">
+        <button class="btn btn-primary" type="button">Pay $3439.00</button>
+      </div></body>
 
 </html>
