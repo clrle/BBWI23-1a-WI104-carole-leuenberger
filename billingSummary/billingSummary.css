@@ -1,0 +1,26 @@
+.display-block {
+    display: block;
+}
+
+.price {
+    padding-left: 50px;
+}
+
+body {
+    font-family: 'Calibri';
+}
+
+.border-top {
+    border-top: 1px solid black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.title{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
